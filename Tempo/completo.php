@@ -52,7 +52,8 @@ function hg_request($parametros, $chave = null, $endpoint = 'weather'){
 
     <center>
       <div>
-      <input type="text" name="Cidade"></input>
+        <h1>Insira o nome a sua cidade Corretamente</h1>
+      <input type="text" name="Cidade" placeholder="Ex.: São Paulo"></input>
       <br>
       <input type="submit"></input>
       </div>
